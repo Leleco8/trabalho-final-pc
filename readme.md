@@ -6,3 +6,4 @@
 - gabriel fernando
 - joice
 - leandro
+- victor emanuel
