@@ -1,5 +1,4 @@
 from dados import estant, disponi
-
 status_livros = [disponi[0]] * len(estant)
 
 
