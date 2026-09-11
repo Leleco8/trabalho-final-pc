@@ -6,6 +6,12 @@ from dados import cat, aut, estant
 def catliv():
     for categoria, livro in zip(cat, estant):
         print(f"#{categoria}:  {livro}")
+        
+def catliv_sombra():
+    bibli = {}
+    for categoria, livro in zip(cat, estant):
+        bibli[categoria] = livro 
+    return bibli
 
 # livros + autor
 def autliv():

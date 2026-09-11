@@ -1,16 +1,19 @@
-livros = [
-    {"titulo": "1984", "categoria": "Ficção"},
-    {"titulo": "Clean Code", "categoria": "Programação"},
-    {"titulo": "Python Fluente", "categoria": "Programação"},
-    {"titulo": "O Hobbit", "categoria": "Fantasia"},
-    {"titulo": "Harry Potter", "categoria": "Fantasia"}
-]
+from consuliv import catliv_sombra
 
-categoria_desejada = "Programação"
+def elemen_desejo():
+    categoria_desejada = str(input("Qual a categoria desejada: "))
+    livros = catliv_sombra()
+    livros_filtrados = [
+        livro for categoria, livro in livros.items()
+        if categoria == categoria_desejada
+    ]
 
-livros_filtrados = [
-    livro for livro in livros
-    if livro["categoria"] == categoria_desejada
-]
+    print(livros_filtrados)
+    
+elemen_desejo()
 
-print(livros_filtrados)
+
+
+            
+
+
