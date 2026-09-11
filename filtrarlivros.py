@@ -9,8 +9,7 @@ def elemen_desejo():
     ]
 
     print(livros_filtrados)
-    
-elemen_desejo()
+
 
 
 
