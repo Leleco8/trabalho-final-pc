@@ -1,5 +1,7 @@
 # funções para retornar livros e consultar livros de determinada categoria ou autor.
 # zip é muito massssssssa, satisfatorio d+
+# vou implementar na interface 4 maneiras de buscar livros
+
 from dados import cat, aut, estant
 
 # livros + categoria 
